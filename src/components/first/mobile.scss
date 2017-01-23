@@ -1,0 +1,81 @@
+& {
+
+  .wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: px(180);
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(254, 106, 58, .7) 0%, rgba(2, 1, 0, .7) 100%),
+    url("../images/first/Background.png");
+    background-size: cover;
+
+    img {
+      width: px(189);
+      height: px(206);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: px(150);
+
+      input {
+        font-weight: 400;
+        width: px(555);
+        height: px(94);
+        border: 0;
+        border-radius: px(50);
+        background: rgba(255, 255, 255, .1);
+        padding-left: px(30);
+      }
+
+      ::-webkit-input-placeholder { /* Chrome/Opera/Safari selector with prefix*/
+        text-indent: px(60);
+        font-family: Montserrat-Regular, sans-serif;
+        color: #fff;
+      }
+
+      .username {
+        margin-bottom: px(26);
+        background-image: url("../images/first/logo-name.png");
+        background-size: px(35);
+        background-position: px(30) center;
+        background-repeat: no-repeat;
+        }
+
+      .password {
+        background-image: url("../images/first/icon-pass.png");
+        background-repeat: no-repeat;
+        background-position: px(30) center;
+        background-size: px(35);
+      }
+
+      button {
+        width: px(555);
+        height: px(94);
+        margin-top: px(25);
+        background-color: #f96332;
+        font-family: Montserrat-Regular, sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+        border: 0;
+        outline: none;
+        border-radius: px(50);
+      }
+
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      margin: px(22) 0;
+      width: 100%;
+      padding: 0 px(42);
+      color: #afadac;
+      font-family: Montserrat-Regular, sans-serif;
+      font-size: px(18);
+    }
+  }
+}
